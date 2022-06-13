@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OnSaveInstanceProject</string>
+    <string name="check_valid_email_an_password">Check Valid Email an password</string>
+    <string name="go_to_another_app">Go to another app</string>
+    <string name="send_email">Send email</string>
+    <string name="onsave_and_onrestore_methods">OnSave and OnRestore Methods</string>
+    <string name="search_in_edit_text_box">search in edit text box</string>
+    <string name="go_to_web_page">Go to web page</string>
+</resources>

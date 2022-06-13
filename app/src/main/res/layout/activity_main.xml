@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            style="@style/buttonStyle"
+            android:id="@+id/btnEmailAndPass"
+            android:text="@string/check_valid_email_an_password"
+             />
+
+        <Button
+            android:id="@+id/btnGoToOtherApp"
+            android:text="@string/go_to_another_app"
+            style="@style/buttonStyle" />
+
+        <Button
+            android:id="@+id/btnSendEmails"
+            android:text="@string/send_email"
+            style="@style/buttonStyle" />
+
+        <Button
+            android:id="@+id/btnsaveInstance"
+            style="@style/buttonStyle"
+            android:text="@string/onsave_and_onrestore_methods"
+             />
+
+        <Button
+            android:id="@+id/btnLaunch"
+            style="@style/buttonStyle"
+            android:text="@string/search_in_edit_text_box"
+             />
+
+        <Button
+            android:id="@+id/btngoWebPage"
+            style="@style/buttonStyle"
+            android:text="@string/go_to_web_page" />
+
+    </LinearLayout>
+</layout>
